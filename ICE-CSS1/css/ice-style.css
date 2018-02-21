@@ -113,7 +113,7 @@ nav ul{
 }
 
 aside {background-image: url("http://www.literarygenius.info/images/william-shakespeare.jpg");
-background-repeat:no-repeat,repeat;
+background-repeat:no-repeat;
 background-size: contain;
 background-position: bottom 100px right;
 
