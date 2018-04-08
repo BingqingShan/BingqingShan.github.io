@@ -12,9 +12,10 @@ html, body{
 	height: 100%;
 }
 
-section {
+.footer-section {
 	background:url("https://i.pinimg.com/564x/64/fa/fd/64fafd29c83a15e786a65a0b1d553554.jpg"); 
-	opacity: 30%
+	opacity: 30%;
+	height:175px; margin-top:50px; margin-bottom:0px; padding:0 0; border-top: 1px solid #eee;
 }
 
 .logo-id{
