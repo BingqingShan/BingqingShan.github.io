@@ -54,6 +54,10 @@ transform: scale(0.6);
 	margin: auto;
 }
 
+h1 {
+	font-size:18px;
+	display: inline;
+}
 
 .hover {
     position: relative;
