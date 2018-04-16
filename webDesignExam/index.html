@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Style-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+        function hideImage(){
+        document.getElementById('p1').style.visibility="hidden";
+    }
+        function showImage(){
+        document.getElementById('p1').style.visibility="visible";
+    }
+
+    </script>
+    </head>
+    <body>
+    	<h1> Bingqing Shan </h1>
+    	<section class="crafts">
+    		<div class="photo photo-cell-1">
+    			<img class="resp-img" id="p1" src="images/examPic.JPG" alt="examPic1">
+    		</div>
+    		<div class="photo photo-cell-2">
+    			<img class="resp-img" id="p2" src="images/UMSI-logo.jpg" alt="examPic2">
+    		</div>
+    	</section>
+        <div id="check">
+        <input type="button" id="button1" onclick="hideimage()" value="Hide Image">
+        <input type="button" id="button2" onclick="showimage()" value="Show Image">
+        </div>
+    </body>
+</html>

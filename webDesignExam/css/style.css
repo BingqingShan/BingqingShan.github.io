@@ -1,0 +1,16 @@
+body  {
+    background-image: url("images/tic-tac-toe.png");
+}
+
+img{
+	box-sizing: border-box;
+	padding:5%;
+	border:5px solid blue;
+	width: 50%
+}
+
+.resp-img{
+	display: inline-block;
+	float:left;
+}
+
